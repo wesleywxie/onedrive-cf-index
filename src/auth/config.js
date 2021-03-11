@@ -8,7 +8,7 @@
  */
 export const AUTH_ENABLED = true
 
-export const NAME = 'guest'
+export const NAME = 'admin'
 // If auth is enabled, then you need to set this secret using wrangler secret put AUTH_PASSWORD
 export const PASS = AUTH_PASSWORD
 // // If auth is not enabled, then you should comment the line above, and set PASS to an empty string
