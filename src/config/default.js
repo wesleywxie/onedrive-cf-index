@@ -6,8 +6,8 @@ const config = {
    * - driveType: controls drive resource type, 0 for onedrive, 1 for sharepoint document
    *
    * Followed keys is used for sharepoint resource, change them only if you gonna use sharepoint
-   * - hostName: sharepoint site hostname (like 'name.sharepoint.com')
-   * - sitePath: sharepoint site path (like '/sites/name')
+   * - hostName: sharepoint site hostname (e.g. 'name.sharepoint.com')
+   * - sitePath: sharepoint site path (e.g. '/sites/name')
    * !Note: we do not support deploying onedrive & sharepoint at the same time
    */
   type: {
